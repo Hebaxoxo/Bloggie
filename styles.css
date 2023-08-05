@@ -1,0 +1,84 @@
+
+.cardcss .btn-primary {
+    background-color: #3C675C;
+    border-color: #3C675C;
+}
+
+.cardcss .btn-primary:hover {
+    background-color: #0f3015;
+    border-color: #0f3015;
+}
+.navbar{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #C5CCDD;
+}
+.navbar .srch{
+    background-color: transparent;
+    border-color: #3C675C;
+    color: #3C675C;
+}
+
+.navbar .srch:hover{
+    background-color: #3C675C;
+    border-color: #3C675C;
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(185, 33, 33, 0.5);
+}
+
+.navbar-brand, .nav-link:hover{
+    color:#0f3015;
+}
+  
+/* Change text color to ensure readability */
+.cardcss .btn-primary:not(:disabled):not(.disabled):active, 
+.cardcss .btn-primary:not(:disabled):not(.disabled).active, 
+.cardcss .show>.btn-primary.dropdown-toggle {
+    color: #ffffff; /* Change text color to white for better contrast */
+}
+.section-p1{
+    padding: 30px;
+}
+
+.blogy .card{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.vertical-center {
+    display: flex;
+    align-items: center;
+    min-height: 100vh; /* Ensures the element is at least the full viewport height */
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.photo {
+    text-align: center;
+    cursor: pointer;
+}
+
+.photo img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px; /* Adjust the max height as needed */
+}
+
+.photo-title {
+    margin-top: 5px;
+    font-size: 14px; /* Adjust the font size as needed */
+}
+
+.writer-section {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+
+.writer-avatar {
+    max-width: 150px;
+    border-radius: 50%;
+}
